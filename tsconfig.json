@@ -16,7 +16,9 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "anicca-ui": ["../anicca_ui_0.1/dist/index.d.ts"],
+      "anicca-ui/*": ["../anicca_ui_0.1/dist/*"]
     }
   },
   "include": ["src"],
